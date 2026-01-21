@@ -1,7 +1,8 @@
-# SYNOPSIS
+# Windows Unquoted Service Path Enumeration Detection
+## SYNOPSIS
 Detects Windows services with unquoted executable paths that contain spaces.
 
-# DESCRIPTION
+## DESCRIPTION
 Finds services where:
 - The executable path contains spaces
 - The executable portion is NOT wrapped in quotes
@@ -9,10 +10,10 @@ Finds services where:
 
 Outputs objects and prints a readable table.
 
-# NOTES
+## NOTES
 Run as admin for best visibility, though detection usually works without.
 
-# SCRIPT
+## SCRIPT
 
 <details>
   
